@@ -1,0 +1,26 @@
+PERANCANGAN GUI PHYTON 3.8 UNTUK MULTIDIMENSIONAL SCALING METRIK
+DISUSUN OLEH :
+BRAMESA WINANDA NUGRAHA (24010216140070)
+DEPARTEMEN STATISTIKA
+FAKULTAS SAINS DAN MATEMATIKA
+UNIVERSITAS DIPONEGORO SEMARANG
+TAHUN 2020
+
+Petunjuk Penggunaan :
+1. Siapkan data dengan format excel terdiri dari 3 Sheet 
+   a. Sheet 1 adalah Data yang akan dipakai. Dengan baris pertama dikosongi atau diisi dengan nama variabel. 
+      Sehingga masukkan data dimulai dari baris kedua.
+   b. Sheet 2 adalah Data yang berisi nama nama objek yang akan dipakai. 
+      Memasukkan nama nama objek ke baris pertama saja. Sehingga inputan nama nama objek berbentuk mendatar
+      Jangan memasukkan nama nama objek ke baris ke dua sampai baris ke n. Yang digunakan hanya baris pertama saja.
+   c. Sheet 3 adalah Data yang berisi nama nama variabel yang akan dipakai. 
+      Memasukkan nama nama variabel ke baris pertama saja. Sehingga inputan nama nama variabel berbentuk mendatar
+      Jangan memasukkan nama nama objek ke baris ke dua sampai baris ke n. Yang digunakan hanya baris pertama saja.
+   *Perlu diingat data yang akan dipakai, data nama2 objek, data nama2 variabel harus terdapat dalam satu "file.xls"
+2. Lalu Setelah data siap, klik load data, pilih data yang akan dipakai
+3. Klik Load Nama Objek, pilih data yang dipilih dari Load data tadi  
+4. Klik Load Nama Variabel, pilih data yang dipilih dari Load data tadi 
+5. Klik Hasil dan Plot untuk mengetahui hasil perhitungan dan plot
+6. Delete Nilai untuk menghapus isian dari textbox. Dan melakukan analisis data-data yang lain
+7. Quit untuk menutup jendela
+ 
