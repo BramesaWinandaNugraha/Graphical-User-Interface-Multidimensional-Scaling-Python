@@ -20,9 +20,11 @@ except ImportError:
     import warnings
     import matplotlib.pyplot as plt
     from sklearn.metrics.pairwise import euclidean_distances
-    
+
+
 import pandas as pd
 from PIL import Image, ImageTk
+
 
 class MyWindow:
 
