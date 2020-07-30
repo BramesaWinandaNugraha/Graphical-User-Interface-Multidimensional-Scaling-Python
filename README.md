@@ -1,7 +1,7 @@
 # Build-GUI-Python-for-Multidimensional-Scaling
 this is the code to create a  Graphical User Interface for multidimensional scaling metrics using idle (python)
 
-
+try:
 
     import tkinter as tk
     import tkinter.filedialog
@@ -10,9 +10,8 @@ this is the code to create a  Graphical User Interface for multidimensional scal
     import warnings
     import matplotlib.pyplot as plt
     from sklearn.metrics.pairwise import euclidean_distances
-
-
-  
+    
+except ImportError:
     import tkinter as tk
     import tkinter.filedialog
     from tkinter.filedialog import askopenfilename
@@ -24,9 +23,8 @@ this is the code to create a  Graphical User Interface for multidimensional scal
     import pandas as pd
     from PIL import Image, ImageTk
 
+class MyWindow:
 
-
-    
     def __init__(self, parent):
 
         self.parent=parent
@@ -205,7 +203,8 @@ this is the code to create a  Graphical User Interface for multidimensional scal
     def fxn(self):
             warnings.filterwarnings("ignore", category=DeprecationWarning)
             
-    if __name__ == '__main__':
+ if __name__ == '__main__':
+ 
     root = tk.Tk()
     root.resizable(0,0)
     root.title("MULTIDIMENSIONALSCALING METRIK")
