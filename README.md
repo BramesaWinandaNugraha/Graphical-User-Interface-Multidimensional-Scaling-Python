@@ -209,7 +209,7 @@ class MyWindow:
 if __name__ == '__main__':
     root = tk.Tk()
     root.resizable(0,0)
-    root.title("MULTIDIMENSIONALSCALING METRIK SKRIPSI")
+    root.title("MULTIDIMENSIONALSCALING METRIK")
     root.geometry("500x300")
     root.iconbitmap(r'd:/unnamed_1_o7R_icon.ico')
     top = MyWindow(root)
