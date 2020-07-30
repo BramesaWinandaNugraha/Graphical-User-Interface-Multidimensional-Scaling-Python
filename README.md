@@ -12,6 +12,7 @@ try:
     from sklearn.metrics.pairwise import euclidean_distances
     
 except ImportError:
+
     import tkinter as tk
     import tkinter.filedialog
     from tkinter.filedialog import askopenfilename
@@ -20,13 +21,12 @@ except ImportError:
     import matplotlib.pyplot as plt
     from sklearn.metrics.pairwise import euclidean_distances
     
-    import pandas as pd
-    from PIL import Image, ImageTk
+import pandas as pd
+from PIL import Image, ImageTk
 
 class MyWindow:
 
     def __init__(self, parent):
-
         self.parent=parent
         self.filename = None
         self.filename1 = None
